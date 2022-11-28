@@ -21,10 +21,6 @@ class Solution {
         int i = 0;
          if(i==n) return true;
             while(i<=n){
-               
-        //         if(n == 1 ){
-        //     if(ans.get(0)!=ans.get(1)) return false;
-        // }
                 if(ans.get(i) == ans.get(n)) {
                     n--;
                     i++;
